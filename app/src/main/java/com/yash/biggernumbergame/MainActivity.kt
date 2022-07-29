@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
             if(isleftButton){
                 if (leftnum > rightnum){
                     Toast.makeText(this, "Correct ans", Toast.LENGTH_SHORT).show()
-                    background.setBackgroundColor(Color.CYAN)
+                    background.setBackgroundColor(Color.GREEN)
 
                 }
                 else{
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             else{
                 if (leftnum < rightnum){
                     Toast.makeText(this, "Correct ans", Toast.LENGTH_SHORT).show()
-                    background.setBackgroundColor(Color.CYAN)
+                    background.setBackgroundColor(Color.GREEN)
 
                 }
                 else{
